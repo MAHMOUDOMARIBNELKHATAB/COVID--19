@@ -1,0 +1,476 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+/* general */
+
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 700;
+}
+
+h2 {
+    color: #035755;
+    font-size: 50px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 59.50px;
+}
+
+h3 {
+    color: #FA5652;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35.96px;
+}
+
+p {
+    color: #4B4F51;
+    font-weight: 400;
+    line-height: 43px;
+    font-size: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.btn-outline {
+    padding: 16px 45px !important;
+    font-size: 18px;
+    border-radius: 65px;
+    font-weight: 500;
+    border: 2px solid #FB4C47;
+    color: #FB4C47 !important;
+}
+
+.btn-secondrary {
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 65px;
+    font-weight: 600;
+    background: rgba(251, 76, 71, 0.5);
+    color: #FA5652;
+}
+
+.btn-primary {
+    padding: 20px 50px;
+    font-size: 24px;
+    border-radius: 65px;
+    font-weight: 700;
+    background: #FB4C47;
+    color: #fff;
+}
+
+h3 {
+    font-weight: 700;
+    color: #FA5652;
+}
+
+section {
+    padding: 76.5px 0;
+}
+
+/* navbar */
+
+.navbar {
+    padding: 33px 0;
+}
+
+.navbar .row {
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__logo {
+    width: 190px;
+}
+
+.navbar__links {
+    align-items: baseline;
+}
+
+.navbar__links a {
+    color: #035755;
+    font-size: 18px;
+    padding: 5px 20px;
+    text-transform: capitalize;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.navbar__links a:hover {
+    color: #FB4C47;
+}
+
+.navbar__links a.active {
+    color: #FB4C47;
+}
+
+.navbar__links a.active::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #FB4C47;
+    margin: 0 auto;
+    transform: translateY(10px);
+
+}
+
+
+.navbar__links .btn-outline {
+    margin-left: 20px;
+}
+
+
+/* 23px banner */
+.banner {
+    min-height: 835px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(../imgs/Illustration.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.banner .container {
+    align-items: center;
+    width: 90%;
+    margin-right: 0;
+}
+
+.banner__content {
+    width: 40%;
+}
+
+.banner h3 {
+    font-size: 32px;
+    line-height: 39.04px;
+}
+
+.banner h1 {
+    color: #035755;
+    font-size: 52px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.banner p {
+    font-size: 24px;
+    line-height: 45.60px;
+    margin-bottom: 54px;
+}
+
+
+.banner__img {
+    width: 60%;
+}
+
+
+/* coronvairus__img */
+.coronvairus .row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.coronvairus h2 {
+    margin-bottom: 18px;
+}
+
+.coronvairus p {
+    margin-bottom: 56px;
+}
+
+.coronvairus__img {
+    width: 50%;
+}
+
+.coronvairus__content {
+    width: 40%;
+}
+
+/* corona-bg */
+.corona-bg {
+    background-image: url(../imgs/corona.svg),
+        url(../imgs/corona.svg);
+    background-repeat: no-repeat;
+    background-size: 283.24px, 131.13px;
+    background-position: 108.1% 62%, 96% 93%;
+}
+
+/* Contagion */
+.Contagion {
+    background-image: url(../../image/path1470.png);
+    background-repeat: no-repeat;
+    background-size: 133.24px;
+    background-position: 10.5% 85%;
+}
+
+.Contagion__header {
+    width: 50%;
+    margin: 0 auto 31px;
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    margin: auto;
+    width: 85%;
+}
+
+.cart-1 {
+    width: 31%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 15px 15px 15px 15px #eeeeee;
+}
+
+.edit {
+    height: 185px;
+}
+
+
+
+.cart-1 figcaption {
+    height: 80px;
+    margin-top: 30px;
+}
+
+.cart-1 figcaption p {
+    margin-top: 15px;
+    font-size: 14px;
+    line-height: 23.3px;
+}
+
+.cart-active {
+    border-bottom: 4px solid #FA5652;
+    border-radius: 5px;
+}
+
+.bk-fig {
+    position: absolute;
+    left: 16px;
+    bottom: 35px;
+    width: 80px;
+}
+
+.paragraph {
+    margin-top: 40px;
+}
+
+.informations {
+    background-image: url(../../image/green.png),
+        url(../../image/green2.png),
+        url(../../image/green3.png);
+    background-repeat: no-repeat;
+    background-size: 178.24px, 136.13px, 127px;
+    background-position: -2.9% 34%, 97% 78%, 100% 87%;
+}
+
+.info-1 {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text {
+    display: flex;
+    justify-content: space-around;
+    width: 55%;
+}
+
+.text .number {
+    margin-right: 20px;
+    background-color: #fee6e5;
+    width: 180px;
+    height: 85px;
+    font-weight: 700;
+    border-radius: 50%;
+    text-align: center;
+    padding: 15px;
+}
+
+.text .number h2 {
+    font-size: 44px;
+    color: #FA5652;
+}
+
+.text .text-01 h2 {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #035755;
+}
+
+.text .text-01 p {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    line-height: 39.78px;
+    width: 85%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4B4F51;
+}
+
+
+.info-1 figure img {
+    width: 550px;
+}
+
+.special {
+
+    padding-left: 60px;
+}
+
+.map {
+    background-image: url(../../image/Covid-19-Landing-Page-For-Figma/Liver\ Reports.png),
+        url(../../image/Covid-19-Landing-Page-For-Figma/Map.png);
+    background-repeat: no-repeat;
+    background-size: 1404.24px, 1184.13px;
+    background-position: 47.1% 46%, 13% 27%;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 70px;
+    overflow: hidden;
+
+}
+
+.foter-header{
+color: #0C6C44;
+font-size: 64px;
+font-weight: 500;
+line-height: 100px;
+}
+
+.input-section{
+    background-image: url(../../image/bk.png) ,
+    url(../../image/bk.png)  ;
+    background-repeat: no-repeat;
+    background-size: 282.24px ,100.13px;
+    background-position: 109.1% 100% ,91% 2%;
+    overflow: hidden;
+
+}
+.Question-head{
+    color: #0C6C44;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 100px;
+    text-align: center;
+}
+.input-field {
+    margin: auto;
+    background-color: #fffafa;
+    display: flex;
+    height: 95px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 15px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    width: 45%;
+}
+
+#input {
+    flex: 1;
+    height: 50PX;
+    font-size: 18px;
+    padding: 0 15px;
+    background: transparent;
+    border: none;
+    border-radius: 17px;
+
+}
+
+#input:focus {
+    outline: none;
+    border-color: rgba(187, 186, 186, 0.8);
+}
+
+#btn {
+    height: 70px;
+    border-radius: 26px;
+    width: 28%;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    background: transparent;
+    background-color: #F44A45;
+
+}
+.down{
+ align-items: center;
+ justify-content: space-between;
+ width: 80%;
+ margin: auto;
+ margin-top: 50px;
+}
+
+
+
+
+
+.foter-down li a{
+    color: #035755;
+}
+.foter-down li a .fa-youtube{
+    color: #F44A45;
+}
+.foter-copy{
+margin: auto;
+margin-top: 20px;
+margin-bottom: 10px;
+font-size: 20px;
+font-weight: 400;
+}
